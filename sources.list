@@ -1,0 +1,6 @@
+deb [trusted=yes] http://feed.dreamboxtools.de/oe_2.5/deb/dm920/all ./
+deb [trusted=yes] http://feed.dreamboxtools.de/oe_2.5/deb/dm920/cortexa15hf-neon-vfpv4 ./
+deb [trusted=yes] http://feed.dreamboxtools.de/oe_2.5/deb/dm920/dm920 ./
+deb [trusted=yes] http://feed.dreamboxtools.de/oe_2.5/deb/dm920/merlin4-thirdparty ./
+deb [trusted=yes] http://feed.dreamboxtools.de/oe_2.5/deb/dm920/merlin4-plugins ./
+deb [trusted=yes] http://feed.dreamboxtools.de/oe_2.5/deb/dm920/merlin4-skins ./
