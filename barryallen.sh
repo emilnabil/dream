@@ -3,6 +3,8 @@
 echo "Uploaded by Emil Nabil"
 sleep 4
 
+date -s "2022-08-07 12:34:56"
+
 PYTHON_VERSION=$(python --version 2>&1)
 if echo "$PYTHON_VERSION" | grep -q '^Python 3\.'; then
    echo "You have Python3"
@@ -91,10 +93,12 @@ rm -f /tmp/enigma2-plugin-extensions-barryalleen_12.91.deb
 sleep 1
 apt-get update
 apt-get install kernel-module-nfsd
-date 2022-08-07
+date -s "2022-08-07 12:34:56"
+
 sleep 2
 reboot
 exit 0
+
 
 
 
